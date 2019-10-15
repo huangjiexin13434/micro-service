@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microspringcloudconsumerdept80" />
+        <module name="microspringcloudconsumerdeptfeign80" />
+        <module name="microspringcloudconsumerhystrixdashboard" />
+        <module name="microspringcloudeuraka7001" />
+        <module name="microspringcloudeuraka7002" />
+        <module name="microspringcloudeuraka7003" />
+        <module name="microspringcloudproviderdept8001" />
+        <module name="microspringcloudproviderdept8002" />
+        <module name="microspringcloudproviderdept8003" />
+        <module name="microspringcloudproviderdeptconfig8001" />
+        <module name="microspringcloudproviderdepthystrix8001" />
+        <module name="microspringcloudserviceapi" />
+        <module name="microspringcloudstudyconfig3344" />
+        <module name="microspringcloudstudyconfigclient3355" />
+        <module name="microspringcloudzuulgateway9527" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="microSpringCloudService3" options="-parameters" />
+      <module name="microspringcloudconsumerdept80" options="-parameters" />
+      <module name="microspringcloudconsumerdeptfeign80" options="-parameters" />
+      <module name="microspringcloudconsumerhystrixdashboard" options="-parameters" />
+      <module name="microspringcloudeuraka7001" options="-parameters" />
+      <module name="microspringcloudeuraka7002" options="-parameters" />
+      <module name="microspringcloudeuraka7003" options="-parameters" />
+      <module name="microspringcloudproviderdept8001" options="-parameters" />
+      <module name="microspringcloudproviderdept8002" options="-parameters" />
+      <module name="microspringcloudproviderdept8003" options="-parameters" />
+      <module name="microspringcloudproviderdeptconfig8001" options="-parameters" />
+      <module name="microspringcloudproviderdepthystrix8001" options="-parameters" />
+      <module name="microspringcloudserviceapi" options="-parameters" />
+      <module name="microspringcloudstudyconfig3344" options="-parameters" />
+      <module name="microspringcloudstudyconfigclient3355" options="-parameters" />
+      <module name="microspringcloudzuulgateway9527" options="-parameters" />
+    </option>
+  </component>
+</project>

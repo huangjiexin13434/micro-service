@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hs_err_pid9008.log" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/micro-springcloud-consumer-dept-feign-80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-springcloud-consumer-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-springcloud-provider-dept-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-springcloud-provider-dept-8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-springcloud-provider-dept-8003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-springcloud-provider-dept-config-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-springcloud-provider-dept-hystrix-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-springcloud-study-config-3344" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-springcloud-study-config-client-3355" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-springcloud-zuul-gateway-9527" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microspringcloudconsumerdept-80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microspringcloudeuraka-7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microspringcloudeuraka-7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microspringcloudeuraka-7003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microspringcloudservice-api" charset="UTF-8" />
+  </component>
+</project>

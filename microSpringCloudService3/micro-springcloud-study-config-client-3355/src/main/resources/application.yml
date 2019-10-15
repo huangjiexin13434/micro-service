@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: micro-springcloud-study-config-client-3355
+
+server:
+  port: 3355
+eureka:
+  instance:
+    hostname: config-client #eureka服务端的实例名称
+    prefer-ip-address: true
+  client:
+    register-with-eureka: false
+    fetch-registry: false

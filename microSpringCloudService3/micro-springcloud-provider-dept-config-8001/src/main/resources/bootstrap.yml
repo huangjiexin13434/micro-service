@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      profile: config8003
+      name: springcloud-config-client
+      uri: http://localhost:3344
+      label: master
+
+

@@ -1,0 +1,29 @@
+server:
+  port: 9527
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka
+      #,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    instance-id: zuul-gateway-instance-id
+    prefer-ip-address: true
+
+spring:
+  application:
+    name: zuul-gateway
+#zuul:
+#  routes:
+#    mydept.serviceId: MICRO-SPRINGCLOUD-PROVIDER-DEPT-8001
+#    mydept.path: /mydept/*
+#  #多个用"*" ignored-services: "*"
+#  ignored-services: MICRO-SPRINGCLOUD-PROVIDER-DEPT-8001
+#  prefix: /springcloud
+zuul:
+  routes:
+     dept:                             #传统的路由配置,此名称可以自定义
+      path: /mydept/**                           #映射的url
+      url: MICRO-SPRINGCLOUD-PROVIDER-DEPT-8001
+  prefix: /a
+  ignored-services: MICRO-SPRINGCLOUD-PROVIDER-DEPT-8001

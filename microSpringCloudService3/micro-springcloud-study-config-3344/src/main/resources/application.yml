@@ -1,0 +1,19 @@
+server:
+  port: 3344
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/huangjiexin13434/springcloud-config
+http:
+    encoding:
+      charset: UTF-8
+
+eureka:
+  instance:
+    hostname: config-server #eureka服务端的实例名称
+    prefer-ip-address: true
+  client:
+    register-with-eureka: false #false表示不向注册中心注册自己
+    fetch-registry: false #false
